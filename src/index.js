@@ -62,7 +62,7 @@ const server = new GraphQLServer({
 server.start(() => console.log(`Server is running on http://localhost:4000`))
 
 /* Tests
-# get/inspect (R)
+# get/inspect
 query {
   feed {
     id,
@@ -71,11 +71,11 @@ query {
   }
 }
 
-# post/add (C)
+# post/add
 mutation {
   post(
-    url: "www.prisma.io"
-    description: "Prisma replaces traditional ORMs"
+    url: "https://www.howtographql.com/graphql-js/1-getting-started/"
+    description: "graphql tutorial"
   ) {
     id,
     description,
@@ -83,11 +83,11 @@ mutation {
   }
 }
 
-# update (U)
+# update
 mutation {
   updateLink(
     id: 0,
-    description: "rrr",
+    description: "how to start with graphql",
   ) {
     id,
     description,
@@ -95,7 +95,7 @@ mutation {
   }
 }
 
-# delete (D)
+# delete
 mutation {
   deleteLink(
     id: 0,
