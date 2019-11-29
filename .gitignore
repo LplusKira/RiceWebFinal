@@ -1,0 +1,7 @@
+tags
+tags.lock
+tags.temp
+node_modules/
+*.swp*
+.DS_Store
+yarn.lock
