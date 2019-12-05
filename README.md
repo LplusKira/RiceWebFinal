@@ -10,6 +10,7 @@ This is a demo repo implementing part of the tutorial at [graphql tutorial](http
 ``` 
   npm run start
 ```
+[Demo Link](https://youtu.be/Jf2Nvkp8gaM)
 
 # How to query with graphql playground
 ```
